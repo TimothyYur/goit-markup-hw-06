@@ -28,9 +28,12 @@
           <li class="contacts-item"><a class="contacts-link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
         </ul>
       </address>
+      <button class="burger-btn" type="button">
+        <svg width="24" height="24" class="burger-icon"><use href="./images/icons.svg#icon-burgermenu"></use></svg>
+      </button>
     </div>
   </header>
-  <main>
+  <main class="hidden">
     <section class="section-one section">
       <div class="container-one container">
         <h1 class="main-title">Effective Solutions for Your Business</h1>
@@ -199,7 +202,7 @@
       </div>
     </section>
   </main>
-  <footer class="footer">
+  <footer class="footer hidden">
     <div class="footer-container container">
       <div class="footer-description">
         <a class="footer-logo" href="./index.html">Web<span class="logo-footer-span">Studio</span></a>
@@ -229,7 +232,7 @@
       </div>
     </div>
   </footer>
-  <div class="backdrop is-open" id="modal-backdrop">
+  <div class="backdrop is-open hidden" id="modal-backdrop">
     <div class="modal-window">
       <button type="button" class="modal-close-btn" data-modal-close aria-label="Close modal">
         <svg class="btn-svg" width="8" height="8">
