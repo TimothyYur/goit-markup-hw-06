@@ -395,6 +395,12 @@ a{
   background-size: cover;
 }
 
+@media (min-resolution: 192dpi) {
+  .section-one {
+    background-image: url(../images/people-office-mb-2x.jpg);
+  }
+}
+
 .container-one {
   display: flex;
   flex-direction: column;
@@ -449,6 +455,11 @@ a{
     rgba(46, 47, 66, 0.7)
   ), url(../images/people-office-tb.jpg);
   }
+  @media (min-resolution: 192dpi) {
+    .section-one {
+      background-image: url(../images/people-office-tb-2x.jpg);
+    }
+  }
 
   .main-title {
     font-size: 56px;
@@ -471,6 +482,12 @@ a{
     rgba(46, 47, 66, 0.7),
     rgba(46, 47, 66, 0.7)
   ), url(../images/people-office.jpg);
+  }
+
+  @media (min-resolution: 192dpi) {
+    .section-one {
+      background-image: url(../images/people-office-2x.jpg);
+    }
   }
 
   .main-title {
