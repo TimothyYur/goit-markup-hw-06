@@ -464,7 +464,6 @@ a{
   }
 
   .section-one {
-    max-width: 1440px;
     margin: 0px auto;
     padding: 188px 0;
     background-image: linear-gradient(
@@ -930,9 +929,10 @@ a{
   color: #fff;
   border: 1px solid #fff;
   border-radius: 4px;
-  width: 264px;
+  width: 288px;
   height: 40px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  opacity: 0.3;
   background-color: transparent;
   padding: 8px 16px;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -940,14 +940,14 @@ a{
 
 .form-input:focus {
   outline: none;
-  border-color: #4d5ae5;
+  opacity: 0.3;
 }
 
 .form-input::placeholder {
   font-family: inherit;
   font-weight: 400;
   color: #fff;
-  opacity: 0.6;
+  opacity: 0.3;
 }
 
 .form-btn {
@@ -1002,11 +1002,21 @@ input {
 
   .footer-description,
   .footer-socials {
+    align-items: flex-start;
     margin-bottom: 0;
+  }
+
+  .footer-logo {
+    text-align: start;
   }
 
   .footer-text {
     max-width: 264px;
+    text-align: start;
+  }
+
+  .socials-title {
+    text-align: start;
   }
 
   .footer-form {
@@ -1041,6 +1051,23 @@ input {
 
   .footer-socials {
     margin-right: 80px;
+  }
+
+  .form-input {
+    width: 264px;
+    opacity: 1;
+  }
+
+  .form-input:focus {
+    outline: none;
+    opacity: 1;
+  }
+
+  .form-input::placeholder {
+    font-family: inherit;
+    font-weight: 400;
+    color: #fff;
+    opacity: 1;
   }
 
   .socials-title {
